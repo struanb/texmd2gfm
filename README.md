@@ -53,7 +53,7 @@ python3 texmd2gfm.py --label-type quadd:2 math.md
 
 ## Example
 
-Given this input Markdown:
+Given this input Markdown, obtained from `pandoc --from=latex --to=gfm+tex_math_dollars`:
 
 ```latex
 Let $w$ and $f_{1}$, $f_{2}$, …,$f_{m}$ be functions that are bounded
